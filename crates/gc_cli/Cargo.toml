@@ -1,0 +1,18 @@
+[package]
+name    = "gc_cli"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "gc"
+path = "src/main.rs"
+
+[dependencies]
+gc_core      = { path = "../gc_core" }
+gc_minecraft = { path = "../gc_minecraft" }
+gc_factorio  = { path = "../gc_factorio" }
+gc_dsp       = { path = "../gc_dsp" }
+tokio        = { workspace = true }
+clap         = { version = "4", features = ["derive", "env"] }
+anyhow       = { workspace = true }
+serde_json   = { workspace = true }

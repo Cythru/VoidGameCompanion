@@ -1,0 +1,13 @@
+[package]
+name    = "gc_minecraft"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gc_core     = { path = "../gc_core" }
+tokio       = { workspace = true }
+anyhow      = { workspace = true }
+thiserror   = { workspace = true }
+serde_json  = { workspace = true }
+async-trait = { workspace = true }
+flate2      = "1"

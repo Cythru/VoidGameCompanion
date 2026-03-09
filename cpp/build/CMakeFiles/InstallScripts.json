@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/luke/projects/VoidForge/game_companion/cpp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

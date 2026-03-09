@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgc_native.a CMakeFiles/gc_native.dir/src/mc_protocol.cpp.o CMakeFiles/gc_native.dir/src/mc_world.cpp.o CMakeFiles/gc_native.dir/src/mc_pathfinder.cpp.o CMakeFiles/gc_native.dir/src/action_queue.cpp.o CMakeFiles/gc_native.dir/src/ffi.cpp.o
+/usr/bin/ranlib libgc_native.a
