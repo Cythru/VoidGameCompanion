@@ -1,0 +1,6 @@
+target/
+cpp/build/
+*.o
+*.so
+*.a
+*.dylib
